@@ -1,0 +1,54 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;   /* taake board upar aur button neeche ho */
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#1976a4, #3aa0c4);
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: flex;            /* aik hi line me cards */
+  gap: 16px;                /* cards ke darmiyan space */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.board img {
+  width: 140px;             /* sabka equal size */
+  height: 200px;
+  object-fit: cover;        /* image stretch na ho */
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.board img:hover {
+  transform: scale(1.05);   /* hover effect thoda zoom */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #eaeaea;
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}

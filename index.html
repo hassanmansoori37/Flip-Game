@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <div class="board">
+    <img id="img1" onclick="flipCard(1)" src="./images/card-backside.png" alt="Card 1">
+    <img id="img2" onclick="flipCard(2)" src="./images/card-backside.png" alt="Card 2">
+    <img id="img3" onclick="flipCard(3)" src="./images/card-backside.png" alt="Card 3">
+  </div>
+
+  <button onclick="reset()">Reset Game</button>
+  <p id="message"></p>
+
+
+  
+
+  <script src="./app.js"></script>
+</body>
+</html>
