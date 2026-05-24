@@ -47,9 +47,9 @@ function flipCard(userNumber) {
 }
 
 function reset () {
-    img1.src = "./images/joker-card.png";
-    img2.src = "./images/king-card.png";
-    img3.src = "./images/joker-card.png";
+    img1.src = "./images/card-backside.png";
+    img2.src = "./images/card-backside.png";
+    img3.src = "./images/card-backside.png";
     isfliped = false;
     message.innerHTML = "";
 }
